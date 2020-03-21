@@ -30,7 +30,7 @@ type binary struct {
 	x, y Expr
 }
 
-// call 表示函数调用表达式，比如 sint(x)
+// call 表示函数调用表达式，比如 sin(x)
 type call struct {
 	fn   string // one of "pow", "sin", "sqrt" 中的一个
 	args []Expr
